@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color:rgb(30, 30, 36);
+    overflow:hidden;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.header {
+    margin: 0 15px;
+    padding: 15px 0;
+    color:blanchedalmond;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.panel {
+    padding: 5px;
+    border-top: 3px solid rgb(223, 199, 147);
+    border-left: 3px solid rgb(223, 199, 147);
+    border-right: 3px solid rgb(223, 199, 147);
+    background-color: white;
+    margin: 0 27px;
+    display: flex;
+    align-items: center;
+}
+
+
+#canvas {
+    border: 3px solid rgb(223, 199, 147);
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#choose-size {
+    cursor: pointer;
+}
+
+.canvas-button {
+    padding: 10px;
+    background-color: rgb(110, 99, 76);
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 199, 147);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 0 3px;
+}
+
+.canvas-button:hover {
+    background-color: rgb(41, 37, 27);
+    transition: .15s ease .05s;
+}
+
+#choose-color {
+    background-color: rgb(110, 99, 76);
+    border: 1px solid rgb(223, 199, 147);
+    border-radius: 5px;
+    height: 35px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+#choose-color:hover {
+    background-color: rgb(41, 37, 27);
+    transition: .15s ease .05s;
+}
+
+.canvas-button-number {
+    background-color: rgb(110, 99, 76);
+    color: white;
+    border: 1px solid rgb(223, 199, 147);
+    border-radius: 5px;
+    margin: 0 3px;
+    padding: 7px 14px;
+    text-align: center;
+}

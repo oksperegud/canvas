@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class= "header">Canvas</div>
+    <div class= "panel">
+        <button id="clear-canvas" class="canvas-button"><span class="fas fa-backspace"></span></button>
+        <button id="pencil" class="canvas-button"><span class="fas fa-pencil-alt"></span></button>
+        <button id="eraser" class="canvas-button"><span class="fas fa-eraser"></span></button>
+        <input type="color" id="choose-color">
+        <input type="range" id="choose-size" min="2" max="200" step="2" value="2">
+        <span id="size-value" class="canvas-button-number">2</span>
+    </div>
+    <canvas id="canvas">Your browser doesn't support canvas</canvas>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
